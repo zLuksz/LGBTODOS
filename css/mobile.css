@@ -40,11 +40,11 @@
 }
 
 .navegacao ul {
-    position: fixed;
-    top: 105px;
+    position: absolute;
+    top: 300px;
     left: 490px;
     margin-right: 2rem;
-    height: 50vh;
+    height: 60vh;
     width: 50%;
     text-align: center;
     display: none;
@@ -137,7 +137,7 @@ input[type=text], input[type=password] {
 }
 
 .noticiapostada img {
-    width: 350px;
+    width: 330px;
 }
 
 .documentario {
@@ -147,6 +147,10 @@ input[type=text], input[type=password] {
 
 .documentario p {
     padding: 0;
+}
+
+.noticiapostada button {
+    width: 200px;
 }
 
 .noticiapostada button:hover {
@@ -204,6 +208,8 @@ input[type=text], input[type=password] {
     padding-top: 20px;
     border-radius: 1rem;
     margin-top: 100px;
+    font-size: 13px;
+    margin-bottom: 0;
 }
 
 .modalDialog:target {
@@ -212,7 +218,7 @@ input[type=text], input[type=password] {
 }
 
 .modalDialog > div {
-    width: 460px;
+    width: 370px;
     position: absolute;
     margin: 5px;
     padding: 0;
